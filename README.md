@@ -15,6 +15,8 @@
 
 # Meridian
 
+### 🔱 Live site: **[meridian-zeta-neon.vercel.app](https://meridian-zeta-neon.vercel.app)**
+
 A **free, auto-updating research tool** for one of the most interesting stories in economics: what
 happens when a broke, high-inflation country gets a leader who actually fixes it (the
 Argentina-Milei playbook: kill the deficit, free the currency, crush inflation). Every country on
