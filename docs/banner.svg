@@ -25,7 +25,7 @@
   <circle cx="1140" cy="142" r="5" fill="#35d6a5"/>
 
   <!-- trident -->
-  <g transform="translate(120,88)" stroke="url(#gold)" stroke-width="7" stroke-linecap="round" fill="none">
+  <g transform="translate(120,88)" stroke="#e8c877" stroke-width="7" stroke-linecap="round" fill="none">
     <path d="M0 -34 V96"/>
     <path d="M-30 -30 V-6 Q-30 16 0 18 Q30 16 30 -6 V-30"/>
     <path d="M-8 96 H8"/>
