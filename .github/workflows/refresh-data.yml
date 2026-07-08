@@ -1,0 +1,50 @@
+# Keeps the quant layer fresh: re-pulls IMF/World Bank/FX data and ETF prices,
+# re-runs the hindsight backtest, and commits the new snapshot if anything
+# changed. The curated overlay and AI analysis are NOT touched here - those
+# are research artifacts, refreshed deliberately, not on a timer.
+name: refresh data
+
+on:
+  schedule:
+    - cron: '17 6 * * 1' # Mondays 06:17 UTC (odd minute to dodge cron rush hour)
+  workflow_dispatch: {}   # manual "refresh now" button in the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Pull fresh macro data (IMF WEO, World Bank, FX)
+        run: npm run fetch-data
+
+      - name: Pull fresh ETF prices (Yahoo, monthly adjclose)
+        run: npm run fetch-prices
+
+      - name: Re-run the hindsight backtest
+        run: npm run backtest
+
+      - name: Sanity build
+        run: npm run build
+
+      - name: Commit refreshed data (only if changed)
+        run: |
+          git config user.name "meridian-bot"
+          git config user.email "actions@github.com"
+          git add data/snapshot.json data/prices.json data/backtest.json
+          if git diff --cached --quiet; then
+            echo "No data changes this week."
+          else
+            git commit -m "data: weekly refresh ($(date -u +%Y-%m-%d))"
+            git push
+          fi
