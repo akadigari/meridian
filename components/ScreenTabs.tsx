@@ -137,11 +137,9 @@ export default function ScreenTabs({ countries, generatedAt }: { countries: Scor
       )}
 
       <p className="muted xs" style={{ marginTop: 10 }}>
-        Data snapshot {new Date(generatedAt).toISOString().slice(0, 10)} · IMF WEO (current-year values are IMF estimates) + World Bank ·{' '}
-        <span className="mono">*</span> = automated proxy, <span className="mono" style={{ color: 'var(--blue)' }}>†</span> = curated
-        overlay with sources · Momentum Δ = change in quant-only score vs ~2 years ago. Level shows who&rsquo;s good now; momentum shows
-        who&rsquo;s improving fastest - the screen&rsquo;s whole point is catching the second group early. Signals exist only for curated
-        countries; everything else is UNRATED (a score without qualitative homework is not a verdict).
+        Data: IMF + World Bank, snapshot {new Date(generatedAt).toISOString().slice(0, 10)} (current-year numbers
+        are IMF estimates) · <span className="mono">*</span> = rough proxy · <span className="mono" style={{ color: 'var(--blue)' }}>†</span> = hand-researched
+        with sources · Momentum = score change over two years · countries we have not researched by hand say UNRATED.
       </p>
     </>
   );

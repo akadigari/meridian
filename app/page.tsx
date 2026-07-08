@@ -15,18 +15,11 @@ export default function ScreenPage() {
     <>
       <h1 className="page-title">THE SCREEN</h1>
       <p className="page-sub">
-        A free research tool for one of the most interesting stories in economics: what happens when a broke,
-        high-inflation country gets a leader who actually fixes it. Every country on Earth is scored 0–100 on
-        five plain questions - <b>is inflation falling</b>, <b>is the currency honest</b>, <b>do bond markets
-        trust it</b>, <b>is the budget balanced</b>, <b>is a serious reformer in power</b> - from public IMF
-        and World Bank data that refreshes itself weekly, with an AI analyst reading the same numbers and
-        explaining what it sees, source by source. It exists for curiosity and learning, not trading: a high
-        score means the turnaround story checks out on the fundamentals, nothing more.
-        {' '}New to the jargon? The <Link href="/methodology#glossary">60-second glossary</Link> translates
-        every term on this page.
-        {curated
-          ? ` Qualitative factors (parallel-rate gap, reformer) are hand-curated with sources for ${Object.keys(curated.countries).length} shortlist countries (as of ${curated.asOf}); everything else is scored from APIs alone.`
-          : ' Curated qualitative overlay not yet generated - all scores are API-only.'}
+        Sometimes a broke country gets a leader who actually fixes it: prices stop exploding, the budget
+        balances, and everything the country owns gets revalued. Meridian watches all 197 countries for that
+        story. Five simple checks, one score out of 100, refreshed automatically every week, and an AI analyst
+        that must show a source for every claim. It is a free research tool for learning, not investing
+        advice. New to the words? Read the <Link href="/methodology#glossary">60-second glossary</Link>.
       </p>
       <TopFive />
       <TripwireStrip />

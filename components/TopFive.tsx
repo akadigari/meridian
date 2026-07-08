@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { getAnalysis, getScoredCountries, getCurated, getDepth } from '@/lib/data';
+import { getAnalysis, getScoredCountries, getCurated, getDepth, getBacktest, nowYear } from '@/lib/data';
+import { pickMath, moneyCaveat } from '@/lib/pickmath';
 import { SignalBadge, scoreColor } from './ui';
 import type { Analysis } from '@/lib/analyst';
 
@@ -12,6 +13,9 @@ export default function TopFive() {
   if (!picks?.length) return null;
   const scored = new Map(getScoredCountries().map((c) => [c.iso3, c]));
   const curated = getCurated();
+  const backtest = getBacktest();
+  const year = nowYear();
+  const caveat = moneyCaveat(backtest);
 
   return (
     <section className="topfive">
@@ -20,13 +24,15 @@ export default function TopFive() {
           <span className="trident">Ψ</span>THE TRIDENT FIVE
         </span>
         <span className="muted xs mono">
-          the analyst&rsquo;s five picks, ranked · AI opinion grounded in the curated research, not advice
+          our five favorite reform stories, ranked · AI opinion with sources · not advice
         </span>
       </div>
       {picks.slice(0, 5).map((p, i) => {
         const c = scored.get(p.iso3);
-        const access = curated?.countries?.[p.iso3]?.access;
+        const cur = curated?.countries?.[p.iso3];
+        const access = cur?.access;
         const depth = access?.etfStatus === 'active' ? getDepth(access.etfTicker) : null;
+        const math = pickMath(cur, backtest, year);
         return (
           <div className="topfive-row" key={p.iso3}>
             <div className="topfive-rank">{NUMERALS[i]}</div>
@@ -38,6 +44,16 @@ export default function TopFive() {
               <div className="topfive-risk">
                 <b>KEY RISK · </b>
                 {p.keyRisk}
+              </div>
+              <div className="topfive-math muted xs">
+                <b className="mono" style={{ fontSize: 9.5, letterSpacing: '0.08em' }}>HOW LONG · </b>
+                {math.horizon}
+                {math.dollars && (
+                  <>
+                    {' '}<b className="mono" style={{ fontSize: 9.5, letterSpacing: '0.08em' }}>· THE MATH · </b>
+                    {math.dollars}
+                  </>
+                )}
               </div>
             </div>
             <div className="topfive-meta">
@@ -57,10 +73,8 @@ export default function TopFive() {
         );
       })}
       <div className="topfive-foot muted xs">
-        Ranking blends setup quality, momentum, and whether a US investor can actually express the trade. Every
-        number traces to the curated overlay; the full cited bull and bear cases live in the{' '}
-        <Link href="/analyst">Analyst</Link> tab. Generated {analysis!.generatedAt.slice(0, 10)}. A rank here is a
-        judgment about the setup, not a forecast about the price.
+        {caveat ? caveat + ' ' : ''}Ranks weigh the story, the momentum, and whether you can actually buy it.
+        Full sources in the <Link href="/analyst">Analyst</Link> tab. Updated {analysis!.generatedAt.slice(0, 10)}.
       </div>
     </section>
   );
