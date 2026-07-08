@@ -3,6 +3,12 @@
  *  MERIDIAN SCORING ENGINE - the one file that defines the entire methodology.
  * ═══════════════════════════════════════════════════════════════════════════
  *
+ *  NEW HERE? This file is the heart of the project and it was written to be
+ *  read. There is no clever math anywhere: every score comes from "connect
+ *  the dots" lines between hand-picked anchor points (see piecewise() below),
+ *  and the final score is a weighted average. A guided tour of the whole
+ *  codebase for beginners lives in docs/CODE_TOUR.md.
+ *
  *  THE THESIS THIS SCORES (stated honestly):
  *  When a broke, high-inflation country gets a serious reformer who fixes the
  *  fundamentals - kills the deficit, frees the currency, crushes inflation - 

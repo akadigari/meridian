@@ -156,7 +156,7 @@ export default async function CountryPage({ params }: { params: Promise<{ iso3: 
 
       {/* ── how to actually play it ── */}
       <div className="panel panel-pad" style={{ marginTop: 16 }}>
-        <div className="panel-title">How to actually play it - for a US retail investor</div>
+        <div className="panel-title">How markets express this story - context, not a menu</div>
         <div className="playbook-tier easy">
           <b className="mono xs" style={{ color: 'var(--green)' }}>EASY - US-LISTED ETF</b>
           <div className="small dim" style={{ marginTop: 4 }}>
@@ -198,8 +198,9 @@ export default async function CountryPage({ params }: { params: Promise<{ iso3: 
           </div>
         </div>
         <p className="muted xs" style={{ marginTop: 8 }}>
-          None of this is a recommendation - it&rsquo;s a map of the instruments and their honest trade-offs. Position
-          sizing, entry, and whether to act at all are your call.
+          This section exists because you cannot understand a turnaround story without knowing how markets vote on
+          it - the ETF, the bonds, and the currency are the scoreboard. It is context for research, not a menu of
+          recommendations.
         </p>
       </div>
 

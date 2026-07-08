@@ -1,5 +1,7 @@
 'use client';
 
+// Draws the world map heatmap as one big SVG and colors each country by score.
+
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { geoNaturalEarth1, geoPath } from 'd3-geo';

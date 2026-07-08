@@ -1,5 +1,7 @@
 'use client';
 
+// Renders the AI analyst's report: top pick, cited bull/bear cases, sources.
+
 import { useState } from 'react';
 import Link from 'next/link';
 import type { Analysis, AnalysisClaim } from '@/lib/analyst';

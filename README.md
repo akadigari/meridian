@@ -15,14 +15,23 @@
 
 # Meridian
 
-Screens **every country on Earth** for "reform-turnaround" potential (the Argentina-Milei playbook:
-kill the deficit, free the currency, crush inflation), ranks them 0-100 on live IMF and World Bank
-data, curates the qualitative layer with sources, and ships an AI analyst whose every claim carries
-a citation. Zero API keys needed. Styled like an observatory recovered from the sea floor.
+A **free, auto-updating research tool** for one of the most interesting stories in economics: what
+happens when a broke, high-inflation country gets a leader who actually fixes it (the
+Argentina-Milei playbook: kill the deficit, free the currency, crush inflation). Every country on
+Earth is scored 0-100 on live IMF and World Bank data that refreshes itself weekly via GitHub
+Actions, the qualitative layer is hand-researched with sources, and an AI analyst reads the same
+numbers plus fresh web research and explains what it sees, citation by citation.
 
-> A discretionary macro screening heuristic. Not a backtested edge. Not financial advice.
-> A high score means "ranks well on the reform-playbook fundamentals", NOT "will make money."
-> The methodology page even backtests itself against its own thesis and reports the thin result.
+Built for curiosity, students, and research, not trading. Zero API keys needed. Styled like an
+observatory recovered from the sea floor.
+
+> Not a backtested edge. Not financial advice. A high score means "the turnaround story checks out
+> on the fundamentals", NOT "will make money." The methodology page even backtests the thesis
+> against itself and honestly reports the thin result.
+
+**New to all of this?** Two on-ramps: the [60-second jargon glossary](/methodology#glossary) on the
+site translates every finance term, and [`docs/CODE_TOUR.md`](docs/CODE_TOUR.md) walks the entire
+codebase in plain English for people who have never read one before.
 
 ---
 

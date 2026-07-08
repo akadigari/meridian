@@ -37,6 +37,29 @@ export default function MethodologyPage() {
         </p>
       </div>
 
+      <div className="panel panel-pad" style={{ marginTop: 16 }} id="glossary">
+        <div className="panel-title">The 60-second glossary - every term on this site, translated</div>
+        <div className="grid2">
+          <ul className="bullets small dim">
+            <li><b>Inflation</b>: how fast prices rise. 2% is calm; 200% means money loses half its value in months. &ldquo;Falling&rdquo; is the whole game here.</li>
+            <li><b>Fiscal balance / deficit / surplus</b>: what a government earns minus what it spends, as a share of the economy (GDP). Spending more than you earn = deficit. Chronic deficits get financed by printing money, which causes the inflation above.</li>
+            <li><b>Parallel (black-market) exchange rate</b>: when a government pretends its currency is worth more than it is, a street market appears with the real price. The gap between the official and street rate measures how big the lie is.</li>
+            <li><b>Sovereign spread</b>: the extra interest a country must pay to borrow dollars compared to the US government. 400bps = 4 percentage points extra. Big spread = lenders expect default.</li>
+            <li><b>bps (basis points)</b>: hundredths of a percentage point. 100bps = 1%.</li>
+          </ul>
+          <ul className="bullets small dim">
+            <li><b>IMF program</b>: an emergency loan from the International Monetary Fund that comes with homework - the country must hit agreed targets to keep receiving money. Passing &ldquo;reviews&rdquo; is evidence the reform is real.</li>
+            <li><b>ETF</b>: a fund that trades like a single stock and holds a whole country&rsquo;s stock market. The easiest window into how investors feel about a country.</li>
+            <li><b>Re-rate</b>: when markets decide a country is less risky than they thought and reprice everything upward at once.</li>
+            <li><b>Composite score</b>: our 0–100 weighted average of the five factor scores.</li>
+            <li><b>Momentum</b>: today&rsquo;s quant score minus the score two years ago. Positive = the story is improving; the leaderboard tells you who is good, momentum tells you who is <i>getting</i> good.</li>
+          </ul>
+        </div>
+        <p className="muted xs" style={{ marginTop: 6 }}>
+          Reading the code instead? There is a beginner-friendly tour of every file in <code>docs/CODE_TOUR.md</code>.
+        </p>
+      </div>
+
       <div className="grid2" style={{ marginTop: 16 }}>
         <div className="panel panel-pad">
           <div className="panel-title">The five factors &amp; weights</div>

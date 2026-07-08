@@ -1,5 +1,8 @@
 'use client';
 
+// The big interactive table: leaderboard / momentum / map tabs, filters, sorting.
+// Runs in the browser ('use client') because it responds to clicks.
+
 import { useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import type { ScoredCountry } from '@/lib/types';

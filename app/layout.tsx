@@ -3,9 +3,9 @@ import Link from 'next/link';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Meridian - Reform-Turnaround Macro Screen',
+  title: 'Meridian - a living atlas of countries fixing themselves',
   description:
-    'Screens every country on the reform-turnaround playbook: inflation falling, honest currency, bond-market trust, fiscal balance, serious reformer. A discretionary heuristic, not financial advice.',
+    'A free, auto-updating research tool that watches every country on the reform-turnaround playbook: inflation falling, honest currency, bond-market trust, fiscal balance, serious reformer. Public data plus AI, built for learning, not trading.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="trident">Ψ</span>
                 <span>
                   MERIDIAN
-                  <small>reform-turnaround screen · sovereign depths observatory</small>
+                  <small>a living atlas of countries fixing themselves · auto-updating · public data + AI</small>
                 </span>
               </div>
             </Link>
@@ -34,8 +34,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="meander" />
         <main className="container">{children}</main>
         <footer className="site-footer">
-          <span className="mono">Ψ</span> public-data macro screen · a heuristic, not financial advice · methodology,
-          caveats and the honest backtest live <a href="/methodology">here</a>
+          <span className="mono">Ψ</span> a free research tool for watching countries fix (or break) themselves · data
+          refreshes automatically every week · built for curiosity, not trading, and never financial advice · how it
+          works, the jargon glossary, and the honest backtest live <a href="/methodology">here</a>
         </footer>
       </body>
     </html>
