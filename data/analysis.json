@@ -1,96 +1,92 @@
 {
-  "generatedAt": "2026-07-07T18:20:00.000Z",
-  "generatedBy": "Claude (Fable 5) - build-time run: parallel research agents with live web search, adversarially fact-checked, then synthesized against the screen's factor data",
+  "generatedAt": "2026-07-09T00:20:00.000Z",
+  "generatedBy": "Claude (Fable 5) - build-time run against the 2026-07-09 curated refresh: parallel research agents with live web search, adversarially fact-checked, then synthesized against the screen's recomputed factor data",
   "method": "build-time",
   "disclaimer": "AI ANALYSIS / OPINION grounded in the screen data and cited web research. Not a prediction, not a recommendation, not financial advice. Verify sources before acting.",
   "topPick": {
     "iso3": "ARG",
     "country": "Argentina",
-    "verdict": "Argentina remains the cleanest full-stack expression of the reform-turnaround playbook: the strongest reformer score on the board, every kill criterion holding, and - almost uniquely among the shortlist - an actually investable US-listed vehicle (ARGT). The catch is that this is now a continuation bet, not a discovery: the bond market has already re-rated the easy half of the move, and the next leg depends on disinflation resuming from its ~33% stall and reserves being rebuilt.",
+    "verdict": "Argentina remains the cleanest full-stack expression of the reform-turnaround playbook: the highest reformer score on the board (88), the only rated play besides Turkey that the screen still flags SETUP INTACT, every kill criterion holding, and - almost uniquely among the shortlist - an actually investable US-listed vehicle (ARGT). The catch is that this is now a continuation bet, not a discovery. The bond market has already re-rated the easy half of the move, disinflation is stalled near 33%, and a fresh corruption scandal has cost the government its Cabinet chief and dented Milei's approval - which is exactly why the reformer score was cut from 93 to 88 this refresh.",
     "bullCase": [
       {
-        "claim": "The reformer has a reinforced mandate, not a fading one: Milei's LLA won the 26 Oct 2025 midterms with 40.84% nationally (vs 31.63% for the Peronists), adding ~64 deputies and 14 senators - veto power through the Oct 2027 general election.",
-        "source": "https://buenosairesherald.com/politics/argentina-2025-midterms-lla-gets-landslide-win-reaches-key-number-of-congress-seats"
-      },
-      {
-        "claim": "The fiscal anchor is real and multi-year: financial surpluses in 2024 and 2025 on the national-administration basis the government reports (IMF WEO's broader general-government measure shows +0.5% of GDP for 2024 but −0.4% for 2025 - perimeter matters), a primary surplus of ~0.5% of GDP cumulated Jan–Apr 2026, and an IMF-agreed 1.6%-of-GDP primary target for 2026 - with the IMF Board completing the second EFF review on 21 May 2026 and judging implementation strong.",
-        "source": "https://www.imf.org/en/news/articles/2026/05/21/pr26165-argentina-imf-completes-2nd-rev-of-extended-arr-under-eff-concludes-2026-aiv-consultation"
-      },
-      {
-        "claim": "The currency is honest for the first time in decades: capital controls were lifted April 2025, and the official-vs-blue gap is ~0–2.3% (curated at 1.5%) against 50–100% historically - the screen's currency-honesty factor scores 69 with the gap effectively closed.",
-        "source": "https://bluedollar.net"
-      },
-      {
-        "claim": "The meanest judge is convinced: riesgo país closed at 408bps on 7 Jul 2026 - the lowest since April 2018, down from >2,000bps before Milei's election - after the government presented a 2026–27 financing program requiring no international issuance in its base case.",
+        "claim": "The meanest judge is the most convinced: riesgo pais fell to 408bps on 7 Jul 2026 - the lowest of the Milei era and near its April-2018 floor - after the government presented a 2026-27 financing program that needs no international issuance in its base case.",
         "source": "https://www.infobae.com/economia/2026/07/07/el-riesgo-pais-toco-el-nivel-mas-bajo-en-la-era-milei-tras-la-presentacion-del-programa-financiero/"
       },
       {
-        "claim": "Ratings are catching up from behind: S&P upgraded two notches to B- on 10 Jun 2026 citing easing external vulnerabilities and a projected ~US$10bn 2026 energy trade surplus from Vaca Muerta - a structural dollar inflow the old Argentina never had; Fitch had upgraded to B- on 5 May.",
-        "source": "https://www.bloomberg.com/news/articles/2026-06-10/argentina-rating-raised-to-b-by-s-p-in-win-for-milei"
+        "claim": "The fiscal anchor is real and still holding: the Treasury closed the first half of 2026 with a primary surplus of about 0.7% of GDP, and the IMF completed the second review of the Extended Fund Facility on 21 May 2026 (about US$1bn disbursed, roughly US$15.8bn drawn to date) judging implementation strong.",
+        "source": "https://www.imf.org/en/news/articles/2026/05/21/pr26165-argentina-imf-completes-2nd-rev-of-extended-arr-under-eff-concludes-2026-aiv-consultation"
       },
       {
-        "claim": "It is investable for a US retail account: ARGT (Global X MSCI Argentina) is active and liquid (~$826.6M AUM, verified trading 7 Jul 2026), plus a deep NYSE ADR bench (YPF, GGAL, BMA, PAM, VIST).",
-        "source": "data: Meridian curated overlay, ARG access note (ETF access check 2026-07-07)"
+        "claim": "The currency is honest for the first time in decades: the informal-vs-official gap is only about 1.5% at the midpoint, against the 50-100% distortions that were normal for years.",
+        "source": "https://bluedollar.net/"
+      },
+      {
+        "claim": "Ratings are catching up from behind: Fitch upgraded to B- on 5 May 2026 and S&P followed with a B- on 10 Jun 2026, citing easing external vulnerabilities; Moody's sits at Caa1 stable with a further upgrade widely expected.",
+        "source": "https://www.riotimesonline.com/argentina-credit-rating-upgrade-sp-b-minus-milei-energy-june-2026/"
+      },
+      {
+        "claim": "It is investable for a US retail account: ARGT (Global X MSCI Argentina) is active and liquid - last close about US$92.44 on 8 Jul 2026, AUM about US$827M - plus a deep NYSE ADR bench (YPF, GGAL, BMA, PAM, VIST) for single-name expression.",
+        "source": "https://stockanalysis.com/etf/argt/"
       }
     ],
     "bearCase": [
       {
-        "claim": "Disinflation has STALLED, not finished: YoY inflation has been stuck at 32–33% for five consecutive months (May 2026: 33.2% YoY, 2.1% m/m), and the screen's inflation factor (69) is carried by the historical collapse from 219.9%, not by current progress.",
-        "source": "https://www.indexbox.io/blog/argentina-cpi-rises-21-in-may-2026-annual-inflation-at-332/"
+        "claim": "NEW this refresh - the political engine cracked: a corruption/illicit-enrichment scandal forced out Cabinet Chief Manuel Adorni in late June 2026, with Diego Santilli sworn in 1 Jul 2026 as Milei's fourth cabinet chief. The reform agenda has stalled in Congress, and the screen cut the reformer score from 93 to 88 in response.",
+        "source": "https://www.batimes.com.ar/news/argentina/santilli-sworn-in-as-cabinet-chief-as-milei-reshuffles-pack.phtml"
       },
       {
-        "claim": "The FX regime's new nominal anchor is circular: since 1 Jan 2026 the band crawls at the trailing INDEC inflation rate, which mechanically accommodates whatever inflation the economy produces - and the peso already trades near the band's upper limit, leaving little buffer against shocks (PIIE critique, Feb 2026, via the curated overlay).",
-        "source": "data: Meridian curated overlay, ARG parallel-FX note (as of 2026-07-07)"
+        "claim": "Milei's political capital is thinning: his approval slid to roughly 39.7% in June (AtlasIntel), the softest of his term, which raises the cost of pushing the remaining structural bills through a Congress he does not control.",
+        "source": "https://thedialogue.org/analysis/why-are-mileis-approval-ratings-falling-in-argentina"
       },
       {
-        "claim": "The fiscal engine is softening at the margin: April 2026's primary surplus was down 16.5% y/y in real terms and tax revenue fell ~4% real, driven by a 34.4% real collapse in commodity export-duty receipts - the 1.6% full-year target requires discipline through December.",
-        "source": "data: Meridian curated overlay, ARG fiscal note (as of 2026-07-07)"
+        "claim": "Disinflation has STALLED, not finished: May 2026 CPI was 33.2% YoY and 2.1% m/m (INDEC), and the screen's inflation factor (69) is carried by the collapse from 200%-plus, not by current progress.",
+        "source": "https://tradingeconomics.com/argentina/inflation-cpi"
       },
       {
-        "claim": "Reserves - the thing Fitch says further upgrades hinge on - are behind plan: the end-Dec 2025 net international reserves target under the IMF program was missed (corrective measures adopted), and the BCRA had bought ~US$3.5bn in 2026 against a US$10–17bn goal.",
-        "source": "https://www.imf.org/en/news/articles/2026/05/21/pr26165-argentina-imf-completes-2nd-rev-of-extended-arr-under-eff-concludes-2026-aiv-consultation"
+        "claim": "The fiscal beat is softening at the margin: the H1-2026 primary surplus of about 0.7% of GDP is narrower than the pace earlier in the program, and holding the full-year target requires discipline through December as export-duty receipts fade.",
+        "source": "https://dinamicaeconomica.wordpress.com/2026/07/01/consolidated-macroeconomic-report/"
       },
       {
-        "claim": "Congress still isn't won: LLA gained veto power but not a majority, so the ~90 structural-reform bills announced for 2026 need allies - the labor reform passed the Senate only 42–28 after heavy negotiation.",
-        "source": "https://www.aljazeera.com/news/2026/2/28/argentina-senate-approves-contentious-milei-backed-labour-reforms"
+        "claim": "The FX regime's new anchor is fragile: since Jan 2026 the crawling band accommodates whatever inflation the economy produces, and the peso trades near the band's upper limit, leaving little buffer against shocks (PIIE critique, 2026).",
+        "source": "https://www.piie.com/blogs/realtime-economics/2026/argentinas-fragile-monetary-framework-risks-renewed-volatility"
       }
     ],
-    "pricedIn": "A lot. The sovereign has gone from >2,000bps to 408bps - an 8-year low - meaning the bond market has already paid out most of the 'default fear to normal EM credit' repricing; two rating agencies upgraded within a month of each other in May–June 2026; and ARGT trades near multi-year highs (~$92.81 last close per the ETF access check of 2026-07-07, recorded in the curated overlay) with the 2024–25 re-rating behind it. What is arguably NOT fully priced: an investment-grade path by 2031 (the government's own stated goal), resumption of disinflation below 20%, and the Vaca Muerta energy surplus compounding - but each of those is a forward bet, not a discount. Sources: infobae riesgo país report 2026-07-07; Meridian curated overlay, ARG access note.",
+    "pricedIn": "A lot. The sovereign has gone from over 2,000bps to 408bps - an era low near the 2018 floor - meaning the bond market has already paid out most of the 'default fear to normal EM credit' repricing, and two agencies (Fitch, S&P) upgraded to B- within five weeks of each other in May-June 2026. ARGT trades near multi-year highs (about US$92.44 last close per the ETF access check of 8 Jul 2026, recorded in the curated overlay). What is arguably NOT priced: the scandal-driven political overhang clearing, disinflation resuming below 20%, and reserves being rebuilt - but each of those is a forward bet, not a discount, and the fresh cabinet turmoil cuts against the first. Sources: infobae riesgo pais report 7 Jul 2026; data: Meridian curated overlay, ARG access note (as of 2026-07-09).",
     "confidence": "medium",
-    "confidenceWhy": "The setup is verifiably intact on all four kill criteria (adversarially fact-checked 2026-07-07), which supports the pick. Confidence is capped at medium because the remaining upside depends on two things currently going sideways - disinflation (stalled ~33%) and reserve accumulation (behind target) - and because the screen has no valuation input: it cannot tell you how much of the story the price already reflects."
+    "confidenceWhy": "The setup is verifiably intact on all four kill criteria (adversarially fact-checked against the 2026-07-09 refresh), and ARG is one of only two rated plays the engine still scores SETUP INTACT, which supports the pick. Confidence is capped at medium because the remaining upside depends on things currently going sideways - disinflation stalled near 33%, reserves behind plan - and because the June cabinet scandal introduced fresh political-execution risk that the screen cannot fully price. The screen also has no valuation input: it cannot tell you how much of the story the price already reflects."
   },
   "runnersUp": [
     {
       "iso3": "GHA",
       "country": "Ghana",
-      "summary": "The best raw data print on the board: June 2026 inflation of 5.3% (down from a 39.2% period-average in 2023 per IMF WEO), a 2025 primary surplus of 2.6% of GDP vs a 1.5% target with the surplus floor written into law, a Fitch upgrade to B in May 2026, and the IMF program's final US$318m tranche expected after Board approval ~27 Jul 2026. Momentum +26 on the quant screen - the second-fastest improver with a curated overlay.",
-      "keyRisk": "Two-sided: the bureau-vs-interbank FX gap (~7.5% as of 4–6 Jul 2026) sits just under the screen's 8% 'near' tripwire, and there is no US-listed vehicle - access is Kosmos Energy (KOS) as a rough proxy or nothing, which for most US retail investors makes the thesis unactionable in equity form."
+      "summary": "The top composite among the rated plays this refresh (77.0, WATCH): June 2026 inflation of 5.3% (still far below the near-40% of 2023, though this was the third straight monthly rise from a 3.2% Feb-Mar trough), a 2025 primary surplus of about 2.6% of GDP against a statutory 1.5% floor, a Fitch upgrade to B with a Positive outlook on 8 May 2026, and the IMF program's final tranche of over US$318m expected after Board approval around 27 Jul 2026 alongside a 36-month non-financing PCI. Momentum +26 on the quant screen.",
+      "keyRisk": "Two-sided: the IMF projects debt climbing back to about 53% of GDP by end-2026 even as the flows improve, the bureau-vs-interbank FX gap (about 7.5% in early July 2026) sits just under the screen's 8% 'near' tripwire, and there is no US-listed vehicle - Kosmos Energy (KOS) is a rough oil proxy or nothing, which for most US retail investors makes the thesis unactionable in equity form."
     },
     {
       "iso3": "PAK",
       "country": "Pakistan",
-      "summary": "The highest curated composite on the screen (77.6, SETUP INTACT): a 9M-FY26 fiscal deficit of 0.7% of GDP (first sub-1% in the country's history), 3.2% primary surplus, June 2026 inflation of 11.1%, Eurobond market re-entry in April 2026 at ~7% (~320bps over Treasuries), and three rating upgrades in 2025 - all executed under an orthodox IMF program whose third review was completed 8 May 2026.",
-      "keyRisk": "No mandate and no access: the program is run by a technocrat finance minister under a hybrid civil-military arrangement rather than a reformer with an electoral mandate (reformer score 58), the PAK ETF was liquidated in Feb 2024, and no Pakistani ADRs trade in the US - USD bonds via EM-debt funds are the only realistic retail expression."
+      "summary": "The third-ranked composite on the screen (74.1, WATCH): a sub-1% general-government deficit and roughly 3% primary surplus - historically strong fiscal - executed under an orthodox IMF program whose third EFF review was completed 8 May 2026, plus a return to global markets with an April-2026 Eurobond upsized to US$750m at 6.975%.",
+      "keyRisk": "No mandate, no access, and inflation turning up: the program is run by a technocrat finance minister with no electoral mandate (reformer score 58), June 2026 inflation jumped to 11.1% (from about 3.2% a year earlier) on the war-driven oil shock, Fitch merely AFFIRMED B- stable in April 2026 (not an upgrade), the PAK ETF was liquidated in Feb 2024, and no Pakistani ADRs trade in the US - USD bonds via EM-debt funds are the only realistic retail expression."
     },
     {
       "iso3": "TUR",
       "country": "Turkey",
-      "summary": "The liquid-access candidate: TUR (iShares MSCI Turkey) trades actively, and Şimşek's orthodox program is real - inflation down from 75% (May 2024) to 32.1% (June 2026), a Moody's upgrade to Ba3 (Jul 2025) plus a Fitch outlook raise to positive (Jan 2026), policy rate held at 37% with genuine discipline.",
-      "keyRisk": "The screen says WATCH, not SETUP: inflation is still 32% with the central bank itself raising its target to 24% citing war-related energy risks, the fiscal balance is a ~3%+ deficit and widening, the 5Y CDS trend is rising, and the whole program survives at the pleasure of a president who fired the last three orthodox central bank governors - political-override risk has no kill-criteria early warning."
+      "summary": "The liquid-access candidate and the only other rated SETUP INTACT (67.7): Simsek's orthodox program is real - inflation eased to 32.11% YoY in June 2026, the 5Y CDS tightened to about 223bps, and ratings sit at Moody's Ba3 / Fitch BB- positive / S&P BB-. TUR (iShares MSCI Turkey) trades actively, so it is buyable for a US account.",
+      "keyRisk": "Inflation is still 32% and the fiscal balance is a widening deficit, but the real hazard has no kill-criteria early warning: the whole program survives at the pleasure of a president who has fired three orthodox central bank governors. Political override, not the macro data, is the thing that breaks this one."
     }
   ],
   "evidenceGaps": [
-    "Sri Lanka - the #1 momentum country on the quant screen (+53) - was researched and added to the curated overlay AFTER this analysis was generated (same day). The analyst has not weighed it: its overlay shows an orthodox IMF program over-delivering on the primary surplus, but June 2026 inflation re-accelerating to 6.8% on the Middle East oil shock, reserves well behind target, and a credible allegation of an unofficial FX cap - read its country page and judge for yourself.",
-    "No market sovereign spread was found from free sources for Ghana, Zambia, or Ethiopia - their bond-market-trust factor is a balance-sheet proxy, and the Ghana runner-up case leans on ratings actions instead of spreads.",
+    "Ecuador deteriorated this refresh and is deliberately kept OFF the shortlist: the reformer score was cut from 68 to 58 on rule-of-law erosion (two opposition parties banned, local elections pulled forward to 29 Nov 2026), and its sovereign spread REBOUNDED to about 411bps and is rising as Brent fell toward US$85 - a turnaround losing altitude, not a pick.",
+    "Ukraine appears on the screen only as a cautionary at-war case: it has never run a surplus, its 2026 budget deficit is about 18% of GDP and fully aid-dependent, an IMF VAT benchmark was missed (a kill criterion effectively tripped), and the corruption probe has now reached Zelensky's former chief of staff Yermak amid deadly July strikes on Kyiv. It is not investable and not a pick.",
+    "Sovereign spreads in basis points could not be fetched from free sources for most African credits and for Sri Lanka and Ukraine (spreadBps null) - their bond-market-trust factor leans on rating actions and yields instead, so the Ghana and Sri Lanka cases rest on ratings rather than live spreads.",
     "No valuation, positioning, or flow data exists anywhere in this system: every 'priced in' judgment above is qualitative, made from spread levels and rating actions, not from equity multiples or fund flows.",
-    "Egypt and Ukraine overlays were generated on a retry after API failures and received one verification pass instead of two; Egypt's fiscal factor (score 0, driven by the −12.1%-of-GDP 2026 deficit estimate in the shipped IMF WEO series) makes it an unlikely pick regardless.",
-    "ETF facts (tickers, AUM, closure dates) were independently verified against issuer/SEC sources on 2026-07-07; one researcher error (NGE's cease-trading date) was caught and corrected - treat all AUM and price figures as of that date only."
+    "ETF facts (tickers, AUM, closure dates) were independently re-verified live on 2026-07-08/09 against issuer and market sources - treat all AUM and price figures as of that date only."
   ],
   "sources": [
     {
-      "title": "Buenos Aires Herald - Argentina 2025 midterms: LLA landslide, key Congress numbers",
-      "url": "https://buenosairesherald.com/politics/argentina-2025-midterms-lla-gets-landslide-win-reaches-key-number-of-congress-seats",
-      "date": "2025-10-27"
+      "title": "Infobae - Riesgo pais at 408bps, lowest of the Milei era, after the 2026-27 financing program",
+      "url": "https://www.infobae.com/economia/2026/07/07/el-riesgo-pais-toco-el-nivel-mas-bajo-en-la-era-milei-tras-la-presentacion-del-programa-financiero/",
+      "date": "2026-07-07"
     },
     {
       "title": "IMF PR 26/165 - Executive Board completes second review of Argentina EFF and 2026 Article IV",
@@ -98,64 +94,69 @@
       "date": "2026-05-21"
     },
     {
-      "title": "bluedollar.net - blue vs official rates, 7 Jul 2026",
-      "url": "https://bluedollar.net",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "Infobae - Riesgo país at 408bps, lowest of the Milei era, after 2026-27 financing program",
-      "url": "https://www.infobae.com/economia/2026/07/07/el-riesgo-pais-toco-el-nivel-mas-bajo-en-la-era-milei-tras-la-presentacion-del-programa-financiero/",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "Bloomberg - Argentina rating raised to B- by S&P in win for Milei",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-10/argentina-rating-raised-to-b-by-s-p-in-win-for-milei",
-      "date": "2026-06-10"
-    },
-    {
-      "title": "IndexBox - Argentina CPI rises 2.1% in May 2026, annual inflation at 33.2%",
-      "url": "https://www.indexbox.io/blog/argentina-cpi-rises-21-in-may-2026-annual-inflation-at-332/",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Al Jazeera - Argentina Senate approves Milei-backed labour reforms 42-28",
-      "url": "https://www.aljazeera.com/news/2026/2/28/argentina-senate-approves-contentious-milei-backed-labour-reforms",
-      "date": "2026-02-28"
-    },
-    {
-      "title": "Citi Newsroom - Ghana June 2026 inflation rises to 5.3%",
-      "url": "https://www.citinewsroom.com/2026/07/june-inflation-rises-to-5-3-driven-by-higher-non-food-prices/",
+      "title": "Buenos Aires Times - Santilli sworn in as Cabinet chief as Milei reshuffles pack",
+      "url": "https://www.batimes.com.ar/news/argentina/santilli-sworn-in-as-cabinet-chief-as-milei-reshuffles-pack.phtml",
       "date": "2026-07-01"
     },
     {
-      "title": "MyJoyOnline - Ghana to receive final IMF tranche of US$318m after July Board approval",
+      "title": "Inter-American Dialogue - Why are Milei's approval ratings falling in Argentina",
+      "url": "https://thedialogue.org/analysis/why-are-mileis-approval-ratings-falling-in-argentina",
+      "date": "2026-07"
+    },
+    {
+      "title": "Rio Times - Argentina credit rating upgrade: S&P raises to B- (Milei, energy), June 2026",
+      "url": "https://www.riotimesonline.com/argentina-credit-rating-upgrade-sp-b-minus-milei-energy-june-2026/",
+      "date": "2026-06-10"
+    },
+    {
+      "title": "Trading Economics - Argentina Inflation Rate",
+      "url": "https://tradingeconomics.com/argentina/inflation-cpi",
+      "date": "2026-07"
+    },
+    {
+      "title": "bluedollar.net - blue vs official peso rates",
+      "url": "https://bluedollar.net/",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "stockanalysis.com - Global X MSCI Argentina ETF (ARGT)",
+      "url": "https://stockanalysis.com/etf/argt/",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "PIIE - Argentina's fragile monetary framework risks renewed volatility",
+      "url": "https://www.piie.com/blogs/realtime-economics/2026/argentinas-fragile-monetary-framework-risks-renewed-volatility",
+      "date": "2026-02"
+    },
+    {
+      "title": "MyJoyOnline - Ghana to receive final IMF cash of US$318m immediately after July Board approval",
       "url": "https://www.myjoyonline.com/ghana-will-receive-final-imf-cash-of-us318-million-immediately-after-july-board-approval-mission-chief/",
       "date": "2026-07"
     },
     {
-      "title": "GBC Ghana - Fitch upgrades Ghana from B- to B",
+      "title": "Modern Ghana - Inflation rises to 5.3% in June, but remains far below last year",
+      "url": "https://www.modernghana.com/news/1507036/inflation-rises-to-53-in-june-but-remains-far.amp",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "GBC Ghana - Fitch upgrades Ghana's credit rating from B- to B",
       "url": "https://www.gbcghanaonline.com/news/business/fitch-ghana-ato/2026/",
       "date": "2026-05-08"
     },
     {
-      "title": "Modern Ghana - cedi bureau vs interbank rates, early July 2026",
+      "title": "GBC Ghana - IMF forecasts Ghana's debt to rise to 53% of GDP by end of 2026",
+      "url": "https://www.gbcghanaonline.com/features/imf-forecasts-ghanas-debt-to-rise-to-53-of-gdp-by-end-of-2026-despite-recent-economic-gains/2026/",
+      "date": "2026"
+    },
+    {
+      "title": "Modern Ghana - July 6: cedi bureau vs interbank rates",
       "url": "https://www.modernghana.com/news/1508118/july-6-cedi-sells-at-ghs1225-on-forex-market.html",
       "date": "2026-07-06"
     },
     {
-      "title": "IMF PR 26/147 - Pakistan: third EFF review completed",
+      "title": "IMF PR 26/147 - Pakistan: third EFF review and second RSF review completed",
       "url": "https://www.imf.org/en/news/articles/2026/05/08/pr-26147-pakistan-imf-completes-3rd-rev-of-extended-arrangement-under-eff-and-2nd-rev-arrang-rsf",
       "date": "2026-05-08"
-    },
-    {
-      "title": "Arab News - Pakistan records fiscal deficit below 1% for first time ever",
-      "url": "https://www.arabnews.com/node/2643302/pakistan",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "Arab News - Pakistan raises $500m Eurobond in return to global markets",
-      "url": "https://www.arabnews.com/node/2640263/pakistan",
-      "date": "2026-04-17"
     },
     {
       "title": "Business Recorder - Pakistan inflation hits 11.1% in June 2026",
@@ -163,50 +164,60 @@
       "date": "2026-07-01"
     },
     {
-      "title": "RTE - Turkey's annual inflation dips slightly to 32.1% in June 2026",
-      "url": "https://www.rte.ie/news/business/2026/0703/1581559-turkey-inflation-rate/",
+      "title": "Dawn - Fitch affirms Pakistan's rating at B- with stable outlook",
+      "url": "https://www.dawn.com/news/1991496/fitch-affirms-pakistans-rating-at-b-with-stable-outlook",
+      "date": "2026-04"
+    },
+    {
+      "title": "Daily Sabah - Turkiye's inflation cools to 32.1% in June",
+      "url": "https://www.dailysabah.com/business/economy/turkiyes-inflation-cools-to-321-in-june",
       "date": "2026-07-03"
     },
     {
-      "title": "Central Banking - Turkey raises inflation target to 24%, citing war risks",
-      "url": "https://www.centralbanking.com/central-banks/monetary-policy/7975894/turkey-raises-inflation-target-to-24-citing-war-risks",
-      "date": "2026-05-14"
+      "title": "MacroMicro - Turkey 5-year CDS",
+      "url": "https://en.macromicro.me/charts/68256/turkey-5year-cds",
+      "date": "2026-07-09"
     },
     {
-      "title": "Bloomberg - Turkey upgraded by Moody's to Ba3 on improved policymaking",
-      "url": "https://www.bloomberg.com/news/articles/2025-07-25/turkey-upgraded-by-moody-s-to-ba3-on-improved-policymaking",
-      "date": "2025-07-25"
+      "title": "CBSL - CCPI headline inflation accelerated further in June 2026",
+      "url": "https://www.cbsl.gov.lk/en/news/ccpi-inflation-june-2026",
+      "date": "2026-06"
+    },
+    {
+      "title": "IMF PR 26/172 - Sri Lanka: combined fifth and sixth EFF reviews completed",
+      "url": "https://www.imf.org/en/news/articles/2026/05/27/pr26172-sri-lanka-imf-completes-combined-5th-and-6th-reviews-under-eff",
+      "date": "2026-05-27"
     }
   ],
   "topFive": [
     {
       "iso3": "ARG",
       "country": "Argentina",
-      "why": "The whole playbook is working: a serious reformer with a fresh mandate, a balanced budget, the fake exchange rate is gone, and lenders now charge Argentina its lowest risk premium in 8 years. Also the only pick with a US fund you can actually buy (ARGT).",
-      "keyRisk": "Inflation is stuck near 33%, and the easy money has been made: the market already believes this story."
-    },
-    {
-      "iso3": "PAK",
-      "country": "Pakistan",
-      "why": "The best report card on the board (78 of 100): the smallest budget deficit in the country's history, inflation down to 11%, and world markets lent to Pakistan again in 2026 for the first time in years.",
-      "keyRisk": "There is no US fund to buy it with, and the reforms come from appointed officials, not a leader voters chose."
+      "why": "The whole playbook is working: a serious reformer, a balanced budget, the fake exchange rate is gone, and lenders now charge Argentina its lowest risk premium in 8 years. It is also the only pick with a US fund you can actually buy (ARGT).",
+      "keyRisk": "A corruption scandal just cost the government its cabinet chief and Milei's popularity is slipping, inflation is stuck near 33%, and the easy money has been made - the market already believes this story."
     },
     {
       "iso3": "GHA",
       "country": "Ghana",
-      "why": "The cleanest numbers anywhere: inflation at 5.3% (it was about 39% two years ago), a real budget surplus written into law, and a credit-rating upgrade in May.",
-      "keyRisk": "The street exchange rate is drifting about 7.5% away from the official one, and there is no US fund for Ghana."
+      "why": "The best score on the board this month: inflation at 5.3% (it was about 39% two years ago), a real budget surplus written into law, and a credit-rating upgrade in May.",
+      "keyRisk": "The IMF still sees debt climbing back toward 53% this year, the street exchange rate is drifting about 7.5% from the official one, and there is no US fund for Ghana."
+    },
+    {
+      "iso3": "PAK",
+      "country": "Pakistan",
+      "why": "A strong report card: the smallest budget deficit in the country's history, and world markets lent to Pakistan again in 2026 for the first time in years.",
+      "keyRisk": "Inflation has jumped back to 11% on higher oil, there is no US fund to buy it with, and the reforms come from appointed officials, not a leader voters chose."
     },
     {
       "iso3": "LKA",
       "country": "Sri Lanka",
       "why": "The fastest improver on the whole screen: from national default in 2022 to passing every IMF test by 2026, with the budget running a real surplus.",
-      "keyRisk": "The oil shock is pushing inflation back up (6.8% and rising), and the central bank may be quietly pinning the currency, the same crack that broke it last time."
+      "keyRisk": "The oil shock is pushing inflation back up (about 6.8% and rising), and the central bank may be quietly pinning the currency - the same crack that broke it last time."
     },
     {
       "iso3": "TUR",
       "country": "Turkey",
-      "why": "The liquid long shot: the TUR fund trades every day, and inflation fell from 75% to 32% under a finance chief that markets trust.",
+      "why": "The liquid long shot: the TUR fund trades every day, and inflation fell from 75% to about 32% under a finance chief that markets trust.",
       "keyRisk": "Inflation is still 32%, the deficit is growing, and one man above the whole program has fired three central bank chiefs before."
     }
   ]
