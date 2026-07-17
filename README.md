@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/emirichu/meridian/actions/workflows/ci.yml/badge.svg" alt="ci"/>
-  <img src="https://github.com/emirichu/meridian/actions/workflows/refresh-data.yml/badge.svg" alt="data refresh"/>
+  <img src="https://github.com/akadigari/meridian/actions/workflows/ci.yml/badge.svg" alt="ci"/>
+  <img src="https://github.com/akadigari/meridian/actions/workflows/refresh-data.yml/badge.svg" alt="data refresh"/>
   <img src="https://img.shields.io/badge/next.js-15-0e2c3f?style=flat-square&logo=nextdotjs&logoColor=e8c877" alt="Next.js 15"/>
   <img src="https://img.shields.io/badge/data-auto--refreshes%20weekly-35d6a5?style=flat-square" alt="auto-refresh"/>
   <img src="https://img.shields.io/badge/api%20keys-none%20required-55c6dd?style=flat-square" alt="no keys"/>
@@ -165,7 +165,7 @@ deploy, the Action's weekly commit triggers a redeploy automatically: push once,
 
 ```bash
 cd meridian
-git remote add origin git@github.com:emirichu/meridian.git
+git remote add origin git@github.com:akadigari/meridian.git
 git push -u origin main
 ```
 
